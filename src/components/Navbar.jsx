@@ -13,7 +13,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument,CgDollar} from "react-icons/cg";
+import { CgFileDocument, CgDollar } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -38,7 +38,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div style={{color:"#6f42c1",fontWeight:"bold", fontSize:"35px"}}>John.</div>
+          <div
+            style={{ color: "#6f42c1", fontWeight: "bold", fontSize: "35px" }}
+          >
+            Rip.
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -88,25 +92,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/CurrencyPage"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgDollar style={{ marginBottom: "2px" }} /> Currency
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/AIchatroom"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgDollar style={{ marginBottom: "2px" }} /> ChatGPT
               </Nav.Link>
             </Nav.Item>
 

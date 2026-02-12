@@ -9,7 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
-  DiRuby
+  DiRuby,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -17,27 +17,27 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
-  SiCsharp
+  SiCsharp,
 } from "react-icons/si";
 import {
   BiLogoVuejs,
   BiLogoAngular,
   BiLogoWordpress,
-  BiLogoUnity
-} from "react-icons/bi"
+  BiLogoUnity,
+} from "react-icons/bi";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />

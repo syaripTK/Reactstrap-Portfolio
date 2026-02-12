@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -11,13 +11,13 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CurrencyPage from './components/Currency/CurrencyPage'
+import CurrencyPage from "./components/Currency/CurrencyPage";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -41,9 +41,9 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/CurrencyPage" element={<CurrencyPage/>}/>
-          <Route path="/AIchatroom" element={<AIchatroom/>}/>
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/CurrencyPage" element={<CurrencyPage />} />
+          <Route path="/AIchatroom" element={<AIchatroom />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
