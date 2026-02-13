@@ -1,3 +1,5 @@
+# Developer Portfolio by AS Syarip
+
 Personal portfolio website built with React to showcase my projects, technical skills, and professional journey as a Web Developer.
 
 This portfolio represents my passion for backend engineering while maintaining strong frontend fundamentals and clean UI presentation.
@@ -82,4 +84,21 @@ npm start
 Build for production:
 
 npm run build
-```
+Purpose
+This project is built to:
+
+Showcase my development skills
+
+Present my backend-focused engineering mindset
+
+Display real-world projects
+
+Represent my professional identity
+
+Author
+Ahmad S. Syarip
+Junior Web Developer | Backend Enthusiast
+Indonesia
+
+License
+This project is open-source and available for learning purposes.
