@@ -15,17 +15,16 @@ import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
-  SiCsharp,
+  SiSequelize,
 } from "react-icons/si";
 import {
   BiLogoVuejs,
   BiLogoAngular,
   BiLogoWordpress,
-  BiLogoUnity,
 } from "react-icons/bi";
 import { TbBrandGolang } from "react-icons/tb";
+import { FaDocker } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -34,20 +33,28 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSequelize />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandGolang />
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <BiLogoVuejs />
       </Col>
@@ -57,15 +64,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <BiLogoWordpress />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BiLogoUnity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
@@ -84,9 +83,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiRuby />
       </Col>

@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -14,18 +13,18 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by John O smith</h3>
+          <h3>Designed and Developed by AS Syarip</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} John </h3>
+          <h3>Copyright © {year} Syarip </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://github.com/syaripTK"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,19 +32,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://www.linkedin.com/in/ahmad-syangkan-syarip-2283b1381/"
                 style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://github.com/Johnlegend"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +42,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://www.instagram.com/ahmadssyarip/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

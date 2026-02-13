@@ -10,15 +10,21 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ahmad S Syarip </span>
             from <span className="purple"> Indonesia.</span>
-            <br /> I am a Junior Web developer. Actually I have poor experience
-            in several programming languages.
+            <br /> I am a passionate Web Developer with a strong interest in
+            backend engineering and full-stack development.
             <br />
-            Additionally, I have enjoyed in helping the others with my great
-            contribution.
+            I enjoy building structured systems, solving real-world problems
+            through code, and continuously improving my technical and analytical
+            skills.
+            <br />
+            <br />
+            Beyond coding, I value collaboration, learning new technologies, and
+            contributing meaningfully to projects and the people around me.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Doing exercise
@@ -39,11 +45,11 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Nothing is impossible. Everybody has their own dream. If they are
-            trying to achieve their goal, there will be no thing not to achieve.
-            How beautiful the world is"{" "}
+            "Most good programmers do programming not because they expect to get
+            paid or get adulation by the public, but because it is fun to
+            program."{" "}
           </p>
-          <footer className="blockquote-footer">Osamu Dazai</footer>
+          <footer className="blockquote-footer">Linus Torvalds</footer>
         </blockquote>
       </Card.Body>
     </Card>

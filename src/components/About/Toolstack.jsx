@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaDocker, FaFigma } from "react-icons/fa";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -8,7 +9,7 @@ import {
   SiMacos,
   SiWindows,
   SiAutodesk,
-  SiArcgis
+  SiArcgis,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -27,7 +28,10 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiStackoverflow/>
+        <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStackoverflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
@@ -37,6 +41,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiArcgis />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaFigma />
       </Col>
     </Row>
   );
