@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import AIchatroom from "./components/AIchatroom/AIchatroom";
 import {
   BrowserRouter as Router,
   Route,
@@ -42,7 +41,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/CurrencyPage" element={<CurrencyPage />} />
-          <Route path="/AIchatroom" element={<AIchatroom />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

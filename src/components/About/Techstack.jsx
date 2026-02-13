@@ -18,11 +18,7 @@ import {
   SiPostgresql,
   SiSequelize,
 } from "react-icons/si";
-import {
-  BiLogoVuejs,
-  BiLogoAngular,
-  BiLogoWordpress,
-} from "react-icons/bi";
+import { BiLogoVuejs, BiLogoAngular, BiLogoWordpress } from "react-icons/bi";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
@@ -46,7 +42,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col>
-     
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
@@ -63,7 +59,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <BiLogoWordpress />
       </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
