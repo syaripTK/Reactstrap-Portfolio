@@ -24,7 +24,6 @@ import {
   BiLogoWordpress,
 } from "react-icons/bi";
 import { TbBrandGolang } from "react-icons/tb";
-import { FaDocker } from "react-icons/fa";
 
 function Techstack() {
   return (

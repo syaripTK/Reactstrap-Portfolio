@@ -1,10 +1,12 @@
 import React from "react";
 import Particle from "../Particle";
 
-export default () => {
-    return(
-        <div style={{padding:"50px"}}>
-            <Particle/>
-        </div>
-    )
-}
+const Aichatroom = () => {
+  return (
+    <div style={{ padding: "50px" }}>
+      <Particle />
+    </div>
+  );
+};
+
+module.exports = Aichatroom;
