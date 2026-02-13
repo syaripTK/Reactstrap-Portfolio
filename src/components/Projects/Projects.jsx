@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={storage}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="Student Data Management System"
               description="A student data management web app utilizing Local Storage for client-side data persistence and a Bootstrap-based UI template from ThemeWagon, showcasing CRUD functionality and responsive interface design."
               ghLink="https://github.com/syaripTK/project-templating"
             />
